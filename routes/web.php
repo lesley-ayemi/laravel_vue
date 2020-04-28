@@ -18,3 +18,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+//this will solve the issue of 404 page when user searches for a page on our site directly
+//this will searchy for any part that matches this content
+Route::get('{path}', "HomeController@index")->where( 'path', '([A-z\d\-\/_.]+)?', 'path');
