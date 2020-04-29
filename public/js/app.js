@@ -52700,6 +52700,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     data: function data() {
@@ -52771,6 +52773,8 @@ var render = function() {
                     ]),
                     _vm._v(" "),
                     _c("td", [_vm._v(_vm._s(user.created_at))]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v(_vm._s(user.updated_at))]),
                     _vm._v(" "),
                     _vm._m(2, true)
                   ])
@@ -53092,6 +53096,8 @@ var staticRenderFns = [
         _c("th", [_vm._v("Type")]),
         _vm._v(" "),
         _c("th", [_vm._v("Register At")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Updated At")]),
         _vm._v(" "),
         _c("th", [_vm._v("Modify")])
       ])

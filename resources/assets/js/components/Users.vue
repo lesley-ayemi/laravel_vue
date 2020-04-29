@@ -20,6 +20,7 @@
                       <th>Email</th>
                       <th>Type</th>
                       <th>Register At</th>
+                      <th>Updated At</th>
                       <th>Modify</th>
                     </tr>
 
@@ -32,6 +33,7 @@
                       <td>{{user.email}}</td>
                       <td><span class="tag tag-success">{{user.type}}</span></td>
                       <td>{{user.created_at}}</td>
+                      <td>{{user.updated_at}}</td>
                       <td>
 
                           <a href="#">
